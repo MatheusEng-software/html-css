@@ -1,0 +1,30 @@
+body {
+    background-color:  #242325;
+}
+.princip{
+width: 450px;
+text-align: center;
+margin: auto;
+box-shadow: 1px 2px 5px;
+border-radius: 10px;
+background-color: #fff;
+}
+.video{
+    padding: 5px;
+    text-align: center;
+    width: 310px;
+    margin: auto;
+}
+.video:hover{
+    transition: margin-left 4s ease-in-out 1s;
+    margin: auto;
+    text-align: center;
+    width: 310px;
+    box-shadow: 1px 2px 12px;
+    color: #10BC4C ;
+    border: 2px solid #000000;
+}
+div{
+    margin-top: 10px;
+    padding: 10px;
+}

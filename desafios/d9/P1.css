@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(to left, #242325 2%, #242325)
+}
+.cardprinci{
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px;
+    color: #242325;
+    margin: auto;
+    margin-top: 15px;
+    width: 422px;
+    text-align: center;
+}
+.cardprinci:hover{
+    box-shadow: 1px 2px 12px;
+    color: #444240 ;
+}
+.cardtitu{
+    padding: 10px;
+    text-align: center;
+}
+.cardvid{
+    text-align: center;
+    padding: 10px;
+}
+.CardPlay{ 
+    text-align: center;
+    padding: 15px;
+}
+a{
+    color:#10BC4C;
+    transition: box-shadow 0.2s ease-in-out;
+}
+a:hover{
+    color: aliceblue;
+}
+@font-face {
+    font-family:'love lary';
+    src: url('ab.ttf') format('opentype'), url('ab.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-family: 'ab.ttf', times, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+div:hover{
+    color: rgb(255, 255, 255);
+}
+div >  p {
+    display: none;
+}
+div:hover > p {
+    border: 1px solid #242325 ;
+    display: block;
+    color: rgb(226, 226, 226);
+    width: 407.17px;
+    padding: 5px;
+    border-radius: 5px;
+
+    margin: auto;
+}
